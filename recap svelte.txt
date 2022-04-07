@@ -1,13 +1,14 @@
 vai in folder nuovo progetto
-npx degit sveltejs/template svelte-app OPPURE npx degit Tom-Siegel/multi-page-svelte(per app multipage)
-cd svelte-app
+npx degit sveltejs/template nuovofolder OPPURE npx degit Tom-Siegel/multi-page-svelte nuovofolder (per app multipage)(nuovofolder OPZ)
+
+cd nuovofolder
 npm install
 
 npm i -D autoprefixer node-sass postcss sass svelte-preprocess (per sass)
 
 "pulisci i file prefatti di svelte"
 
-add in file rollup-pages.config.js
+add in file rollup-pages.config.js E rollup.config.js
 	import sveltePreprocess  from 'svelte-preprocess';
 	(sotto svelte -> dev: !production (se esiste togli compilerOptions)) 
 			, 
@@ -24,4 +25,5 @@ add in file rollup-pages.config.js
 
 (	<style GLOBAL LANG="SCSS">	)   !!!!!!!!!!!!!!!!!
 
-npm run dev (per far partire dev server)
+npm run build
+npm run dev 
