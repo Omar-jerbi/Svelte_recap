@@ -7,7 +7,7 @@ npm i -D autoprefixer node-sass postcss sass svelte-preprocess (per sass)
 
 "pulisci i file prefatti di svelte"
 
-add in file rollup.config.js
+add in file rollup-pages.config.js
 	import sveltePreprocess  from 'svelte-preprocess';
 	(sotto svelte -> dev: !production (se esiste togli compilerOptions)) 
 			, 
