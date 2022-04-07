@@ -1,5 +1,5 @@
 vai in folder nuovo progetto
-npx degit sveltejs/template svelte-app OPPURE <b>npx degit Tom-Siegel/multi-page-svelte</b> (per app multipage)
+npx degit sveltejs/template svelte-app OPPURE npx degit Tom-Siegel/multi-page-svelte(per app multipage)
 cd svelte-app
 npm install
 
