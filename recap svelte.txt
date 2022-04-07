@@ -27,3 +27,14 @@ add in file rollup-pages.config.js E rollup.config.js
 
 npm run build
 npm run dev 
+
+-----------------------------------------------------------------------------------------------
+
+per le components:   (es button)
+...
+import { onMount } from 'svelte';
+  onMount(()=>{
+    const buttonRipple = new MDCRipple(document.querySelector('.mdc-button'));
+  });
+...  
+  
