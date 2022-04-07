@@ -1,5 +1,5 @@
 vai in folder nuovo progetto
-npx degit sveltejs/template svelte-app
+npx degit sveltejs/template svelte-app OPPURE <b>npx degit Tom-Siegel/multi-page-svelte</b> (per app multipage)
 cd svelte-app
 npm install
 
@@ -9,7 +9,7 @@ npm i -D autoprefixer node-sass postcss sass svelte-preprocess (per sass)
 
 add in file rollup.config.js
 	import sveltePreprocess  from 'svelte-preprocess';
-	(sotto svelte -> compilerOptions) 
+	(sotto svelte -> dev: !production (se esiste togli compilerOptions)) 
 			, 
 			preprocess: [
 				sveltePreprocess({
